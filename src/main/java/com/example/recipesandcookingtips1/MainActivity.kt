@@ -42,12 +42,12 @@ class MainActivity : AppCompatActivity() {
 
     private fun populateRecipeList(recipes: Array<String>, authors: Array<String>) {
         recipeList.add(Recipe(recipes[0], authors[0], R.drawable.cheesecakeimage))
-        recipeList.add(Recipe(recipes[1], authors[1], R.drawable.cookiesImage))
-        recipeList.add(Recipe(recipes[2], authors[2], R.drawable.CrepeImage))
-        recipeList.add(Recipe(recipes[3], authors[3], R.drawable.DonutsImage))
-        recipeList.add(Recipe(recipes[4], authors[4], R.drawable.HoneycakeImage))
-        recipeList.add(Recipe(recipes[5], authors[5], R.drawable.MochiImage))
-        recipeList.add(Recipe(recipes[6], authors[6], R.drawable.PanCakeImage))
-        recipeList.add(Recipe(recipes[7], authors[7], R.drawable.VanillaicecreamImage))
+        recipeList.add(Recipe(recipes[1], authors[1], R.drawable.cookiesimage))
+        recipeList.add(Recipe(recipes[2], authors[2], R.drawable.crepeimage))
+        recipeList.add(Recipe(recipes[3], authors[3], R.drawable.donutsimage))
+        recipeList.add(Recipe(recipes[4], authors[4], R.drawable.honeycakeimage))
+        recipeList.add(Recipe(recipes[5], authors[5], R.drawable.mochiimage))
+        recipeList.add(Recipe(recipes[6], authors[6], R.drawable.pancakeimage))
+        recipeList.add(Recipe(recipes[7], authors[7], R.drawable.vanillaicecreamimage))
     }
 }
