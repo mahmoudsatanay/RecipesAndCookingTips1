@@ -1,3 +1,36 @@
 <resources>
     <string name="app_name">RecipesAndCookingTips</string>
+    <string-array name="Recipes">
+        <item>Cheese Cake</item>
+        <item>Cookies</item>
+        <item>Crep</item>
+        <item>Donuts</item>
+        <item>Honuts Cake</item>
+        <item>Mochi </item>
+        <item>Pan Cake</item>
+        <item>Vanilla Ice cream</item>
+        <item>Sweet World</item>
+    </string-array>
+    <string-array name="authors">
+        <item>Sweet Greek</item>
+        <item>Sweet United States</item>
+        <item>Sweet French</item>
+        <item>Sweet United States</item>
+        <item>Sweet Russian</item>
+        <item>Sweet Korean</item>
+        <item>Sweet United States</item>
+        <item>Sweet World</item>
+        <item>Sweet World</item>
+    </string-array>
+    <string-array name="descriptions">
+        <item>description1ghfgjgfjfjgjgjjjjjjjjjjjjjjjjjjj</item>
+        <item>description2ghfgjgfjfjgjgjjjjjjjjjjjjjjjjjjj</item>
+        <item>description3ghfgjgfjfjgjgjjjjjjjjjjjjjjjjjjj</item>
+        <item>description4ghfgjgfjfjgjgjjjjjjjjjjjjjjjjjjj</item>
+        <item>description5ghfgjgfjfjgjgjjjjjjjjjjjjjjjjjjj</item>
+        <item>description6ghfgjgfjfjgjgjjjjjjjjjjjjjjjjjjj</item>
+        <item>description7ghfgjgfjfjgjgjjjjjjjjjjjjjjjjjjj</item>
+        <item>description8ghfgjgfjfjgjgjjjjjjjjjjjjjjjjjjj</item>
+        <item>description9ghfgjgfjfjgjgjjjjjjjjjjjjjjjjjjj</item>
+    </string-array>
 </resources>
