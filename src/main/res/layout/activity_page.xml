@@ -8,18 +8,19 @@
     tools:context=".PageActivity">
 
     <LinearLayout
+        android:id="@+id/linearLayout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:gravity="center"
         android:orientation="vertical"
         tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="196dp" >
+        tools:layout_editor_absoluteY="196dp">
 
         <ListView
             android:id="@+id/list_recipes"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="0dp"/>
+            android:layout_marginTop="0dp" />
 
 
     </LinearLayout>
@@ -28,10 +29,10 @@
         android:id="@+id/saveUsernameButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
         android:text="Page1"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/linearLayout" />
 
 
 
