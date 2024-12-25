@@ -20,8 +20,7 @@ class MainActivity : AppCompatActivity() {
 
         btn = findViewById(R.id.saveUsernameButton)
         btn.setOnClickListener {
-            val intent = Intent(this, PageActivity::class.java)
-            startActivity(intent)
+            startActivity(Intent(this,PageActivity::class.java).setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP))
             finish()
         }
 
